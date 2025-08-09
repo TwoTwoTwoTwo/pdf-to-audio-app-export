@@ -1,0 +1,44 @@
+# PDF to Audiobook Converter - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+streamlit>=1.28.0
+pdfplumber>=0.7.0
+PyMuPDF>=1.23.0
+Pillow>=9.5.0
+langdetect>=1.0.9
+pytesseract>=0.3.10
+
+# Enhanced TTS dependencies
+TTS>=0.22.0
+pydub>=0.25.1
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+
+# Voice cloning dependencies (optional)
+yt-dlp>=2023.7.6
+
+# YouTube integration for voice editor (optional)
+youtube-transcript-api>=0.6.1
+
+# Video creation dependencies (optional)
+# Note: FFmpeg must be installed separately on the system
+
+# Additional audio processing
+librosa>=0.10.0
+
+# Enhanced text processing
+unicodedata2>=15.0.0
+charset-normalizer>=3.2.0
+
+# Data handling
+pandas>=2.0.0
+
+# Additional utilities
+requests>=2.31.0
+tqdm>=4.65.0
+packaging>=23.1
+
+# Optional dependencies for better performance
+# numba>=0.57.0  # Uncomment for faster audio processing
